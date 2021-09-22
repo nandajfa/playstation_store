@@ -142,7 +142,7 @@ h4{
 }
 
 .controle{
-	width: 90%;
+	width: 80%;
 	z-index: 2;
 	animation: moveController 1s infinite alternate ease-in-out;
 }
