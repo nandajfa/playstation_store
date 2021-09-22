@@ -7,7 +7,7 @@ Aplicação Front-end construida no Desafio 30 dias - Rodolfo Mori (https://beac
 
 Aplicação com responsividade e animação no CSS.
 
-(https://github.com/nandajfa/playstation_store/tree/master)
+https://github.com/nandajfa/playstation_store/tree/master
 
 ## Tecnologias utilizadas
 
