@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+	<title>Playstation Store</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<img class="logo" src="./assets/logo.png" alt="Logo">
+			<nav>
+				<ul id="menu-List">
+					<li class="nav-li"><a class="navlink" href="">Consoles</a></li>
+					<li class="nav-li"><a class="navlink" href="">Acessórios</a></li>
+					<li class="nav-li"><a class="navlink" href="">Contoles</a></li>
+					<li class="nav-li"><a class="navlink" href="">Outros</a></li>
+				</ul>
+			</nav>
+			<img src="./assets/menu.png" class="menu-icon" alt="menu" onclick="showMenu()">
+		</div>
+
+		<div class="row">
+			<div class="column1">
+				<h2>PS5 Dualshock</h2>
+				<h3>Wirelless Controller for PlayStation</h3>
+				<p>Controle original</p>
+				<h4>R$ 222,50</h4>
+				<button class="buy" >Comprar agora <img src="./assets/arrow.png" alt="seta"></button>
+			</div>
+
+			<div class="column2">
+				<img class="controle" src="./assets/controller.png" alt="controle">
+				<div class="colorbox"></div>
+				<button class="add-cart">
+					<img src="./assets/add.png" alt="mais">
+				</button>
+			</div>
+		</div>
+
+		<div class="social">
+			<img src="./assets/fb.png" alt="Facebook">
+			<img src="./assets/ig.png" alt="Instagram">
+			<img src="./assets/tw.png" alt="Twitter">
+
+		</div>
+
+	</div>
+
+
+
+</body>
+
+<script>
+
+	const menuList = document.getElementById("menu-List")
+	menuList.style.maxHeight  = "0px"
+
+	function showMenu(){
+		if(menuList.style.maxHeight == "0px"){
+			menuList.style.maxHeight = "120px"
+		} else {
+			menuList.style.maxHeight = "0px"
+		}
+	}
+</script>
+
+</html>
