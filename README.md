@@ -19,7 +19,7 @@ https://play-store.netlify.app/
 
 - HTML / CSS / JS 
 
-## Autor
+## Author
 
 Jessica Fernanda Alves Marques
 
